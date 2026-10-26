@@ -56,7 +56,7 @@ Resimleri modele vermeden önce MNIST formatına uygun hale getirdim:
 **Dağılım Kayması (Distribution Shift) Değerlendirmem:**
 Model test verisinde %97.89 başarı göstermesine rağmen, kendi kağıda yazdığım rakamlarda bazı hatalar yaptı (örneğin 8'i 5, 0'ı 7 olarak tahmin etti). Bunun temel sebebinin eğitim verisi ile gerçek dünya verisi arasındaki "dağılım kayması" (distribution shift) olduğunu gözlemledim. MNIST veri setindeki rakamlar merkeze düzgünce oturtulmuş, pürüzsüz ve standart karakterlerden oluşuyor. Benim telefondan çektiğim resimlerdeki ışık yansımaları, kağıdın dokusu (noise), kalem kalınlığı ve benim kişisel yazı karakteristiğim modelin alıştığı veriden farklı olduğu için, model ezberlediği matris özelliklerini bulamadı ve genelleme yapmakta zorlandı.
 
-![Öğrenci Numaram Orijinal](WhatsApp_Image_2026-10-26_at_18.00.50.jpeg)
+![Öğrenci Numaram Orijinal](OgrenciNo.jpeg)
 ![Test Edilen Rakam Örneği](rakam4.png)
 *(Not: Kendi verilerimle yaptığım görüntü işleme ve test adımları projedeki `Tahmin.py` dosyasında yer almaktadır.)*
 
